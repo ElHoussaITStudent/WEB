@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 2</title>
+
+
+    <h1>Los mejores altavoces con nosotros</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        fieldset, label {
+            margin: 10px;
+            padding: 15px;
+            display: block;
+        }
+
+        select, input {
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Detalles del Altavoz</legend>
+
+        <label for="modelo">Modelo 
+            <select name="modelo" id="modelo">
+                <option value="" disabled selected>Selecciona un modelo</option>
+                <option value="R4">R4</option>
+                <option value="R5">R5</option>
+                <option value="SR1">SR1</option>
+            </select>
+        </label>
+
+        <label for="potencia">Potencia máxima (entre 50 y 100)
+            <input type="number" id="potencia" min="50" max="100">
+        </label>
+
+        <label for="bluetooth">¿Bluetooth?
+            <select name="bluetooth" id="bluetooth">
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </label>
+
+        <label for="color">Color
+            <select name="color" id="color">
+                <option value="" disabled selected>Selecciona un color</option>
+                <option value="Negros">Negros</option>
+                <option value="Blancos">Blancos</option>
+                <option value="Rojos">Rojos</option>
+                <option value="Azules">Azules</option>
+            </select>
+        </label>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
+
+</body>
+</html>
