@@ -7,21 +7,24 @@
 </head>
 <body>
     <fieldset>
-        <legend><h1>La mejor camara de fotos</h1></legend>
+        <legend><h1>Elije la mejor camara de fotos</h1></legend>
 
-        <label for="#">Precio
-            <input type="number">   
-        </label>
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca">
 
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo">
 
+        <label for="megapixeles">Megapíxeles:</label>
+        <input type="number" id="megapixeles">
 
-
-
-
-
-
-
-
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo">
+            <option value="">-- Seleccionar --</option>
+            <option value="compacta">Compacta</option>
+            <option value="reflex">Réflex</option>
+            <option value="mirrorless">Sin Espejo</option>
+        </select>
         <button>Pagar</button>
     </fieldset>
 </body>
