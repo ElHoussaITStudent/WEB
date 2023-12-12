@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(29, 27, 160);
+}
+
+
+h1 {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: chartreuse;
+}
+h2 {
+    color:rgb(201, 79, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: burlywood;
+}
+p {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgb(182, 26, 26);
+}
