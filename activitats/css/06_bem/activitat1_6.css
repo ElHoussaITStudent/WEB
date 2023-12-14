@@ -1,0 +1,21 @@
+.logo {
+    display: inline;
+    text-align: left;
+}
+.header {
+    text-align: center;
+}
+
+nav {
+    float: right;
+    display: inline;
+}
+a {
+    padding: 5px;
+}
+div {
+    float: left;
+}
+.buscador {
+    float: right;
+}
