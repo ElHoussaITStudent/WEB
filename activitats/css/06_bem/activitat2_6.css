@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orange;
+}
+
+.comentarios {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.comentario {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-weight: bold;
+    color: orange;
+}
+
+p {
+    margin: 2px;
+}
