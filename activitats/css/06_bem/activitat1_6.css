@@ -2,8 +2,10 @@
     display: inline;
     text-align: left;
 }
-.header {
+.header1 {
     text-align: center;
+    color: chartreuse;
+
 }
 
 nav {
@@ -15,7 +17,13 @@ a {
 }
 div {
     float: left;
+    border: 2px;
+    border-color: crimson;
 }
 .buscador {
     float: right;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
 }
