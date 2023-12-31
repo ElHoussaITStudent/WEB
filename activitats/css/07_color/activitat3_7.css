@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+   }
+header {
+    background-color: gray;
+    padding: 5px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+}
+div {
+    padding: 10px;
+   }
+section {
+    margin-bottom: 10px;
+   }
+footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    color: white;
+   }
