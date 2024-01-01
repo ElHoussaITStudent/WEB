@@ -1,0 +1,29 @@
+h1 {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2rem;    
+}
+h2 {
+    font-size: larger;
+    font-style: unset;
+    font-weight: 900;
+    letter-spacing: 1rem;
+}
+h3 {
+    font-size: medium;
+    font-style: inherit;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+}
+h3:hover {
+    color: blue;
+    font-style: italic;
+}
+p {
+    font-size: small;
+    font-style: oblique;
+    text-align: justify;
+}
