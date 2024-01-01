@@ -5,7 +5,7 @@ header {
     background-color: gray;
     padding: 5px;
 }
-nav ul {
+nav {
     display: flex;
     justify-content: space-around;
 }
@@ -16,8 +16,15 @@ section {
     margin-bottom: 10px;
    }
 footer {
-    background-color: gray;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: gray;
+    font-size: small;
    }
+.rojo {
+    color: red;
+}
+.fm {
+    color: white;
+    background-color: red;
+}
