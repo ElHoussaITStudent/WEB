@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.negrita {
+    font-weight: bold;
+}
+.t2 {
+text-transform: uppercase;
+}
+.amarillo {
+    background-color: yellow;
+    font-style: italic;
+}

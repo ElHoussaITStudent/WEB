@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+.parrafo {
+    background-color: #ffeeba;
+    max-height: 10rem;
+    height: 5rem;
+    overflow: hidden;
+    padding: 10px;
+}
+.amarillo {
+    background-color: yellow;
+    text-decoration: underline;
+}

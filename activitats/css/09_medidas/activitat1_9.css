@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+header {
+    background-color: red;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.descripcion {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+img {
+    border-radius: 10px;
+}
+.detalles {
+    font-size: 1.1em;
+    background-color: yellow;
+    color: red;
+}

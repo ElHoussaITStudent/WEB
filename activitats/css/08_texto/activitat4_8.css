@@ -1,8 +1,40 @@
-h1 {
-    font-family: "Fira Sans";
-}
 @font-face {
-    font-family: "Fira Sans";
-    src: url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2");
-    font-display: swap;
+    font-family: 'TituloFont';
+    src: url('ruta/titulo-font.woff2') format('woff2'),
+         url('ruta/titulo-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+font-face {
+    font-family: 'TextoFont';
+    src: url('ruta/texto-font.woff2') format('woff2'),
+         url('ruta/texto-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background-color: aqua;
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo {
+    font-family: 'TituloFont', sans-serif;
+}
+main {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 8px;
+}
+
+.subtitulo {
+    font-family: 'TituloFont', sans-serif;
+    color: gray;
+}
+
+.parrafo {
+    color: orange;
 }
