@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: brown;
+}
+.chat {
+    max-width: 700px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 20px;
+}
+.mensaje {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #1333e4;
+}
+.nombre {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+.fecha {
+    color: #666;
+}
+.mensaje-texto {
+    margin-top: 5px;
+    color: #f8dede;
+}
+.usuario1 {
+    padding: 10px;
+    margin: 10px;
+}
+.usuario2 {
+    padding: 10px;
+    margin: 10px;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #4caf50;
+}
