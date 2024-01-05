@@ -1,0 +1,19 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo {
+    background-color: #ffc61b;
+    max-height: 10rem;
+    height: 5rem;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.amarillo {
+    background-color: yellow;
+    text-decoration: underline;
+    margin-left: -5px;
+    margin-right: -5px;
+}
