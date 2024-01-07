@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitat 3</title>
+    <link rel="stylesheet" href="activitat3_13.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="div div1">
+            <h3>¿Qué métodos de pago se ofrecen?</h3>
+        </div>
+        <div class="div div2">
+            <h3 onclick="toggleParrafo()">¿Cómo puedo cambiarme a un plan diferente?</h3>
+            <p id="parrafo" style="display: none;">Puedes cambiarte a un nuevo plan en cualquier momento.</p>
+        </div>
+        <div class="div div3">
+            <h3>¿Puedo optar por comprar créditos?</h3>
+        </div>
+        <div class="div div4">
+            <h3>¿Hay precios especiales?</h3>
+        </div>
+        <div class="div div5">
+            <h3>¿Qué sucede si llego al límite de envíos o contactos?</h3>
+        </div>
+    </div>
+
+    <script>
+        function toggleParrafo() {
+            var parrafo = document.getElementById('parrafo');
+            parrafo.style.display = parrafo.style.display === 'none' || parrafo.style.display === '' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>

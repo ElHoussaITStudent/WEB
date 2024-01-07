@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(240, 87, 87);
+}
+.div1 {
+    background-image: url(descarga.jpg);
+    color: red;
+    margin-bottom: 5rem;
+}
+button {
+    color: red;
+}
+.div2 {
+    background-color: rgb(240, 87, 87);
+    color: white;
+}
