@@ -1,0 +1,20 @@
+.div {
+    display: flex;
+}
+.div1, .div2 {
+    flex: 1;
+}
+body {
+    background-color: pink;
+}
+.b1 {
+    background-color: aqua;
+    color: white;
+}
+button {
+    background-color: pink;
+    color: aqua;
+}
+.div3 {
+    background-color: aquamarine;
+}

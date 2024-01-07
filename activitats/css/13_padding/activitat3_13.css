@@ -1,0 +1,18 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.div {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.div h3 {
+    cursor: pointer;
+}

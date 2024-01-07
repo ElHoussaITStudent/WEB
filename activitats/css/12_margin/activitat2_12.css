@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.t1 {
+    background-color: rgb(171, 172, 187);
+    text-align: center;
+    margin-inline: -15px;
+}
+.sub {
+    text-decoration: underline;
+}
+.t2 {
+    margin-right: 28rem;
+}
+button {
+    margin-top: 2rem;
+}
