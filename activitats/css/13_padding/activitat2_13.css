@@ -20,5 +20,6 @@ button {
 div {
     padding: 5px;
     margin: 5px;
-
+    border-color: 2px solid #000;
+    border-style: groove;
 }

@@ -3,4 +3,5 @@ img {
     border: 4rem solid yellow;
     border-image: linear-gradient(yellow) 1;
     border-top: 4rem solid yellow;
+    border-style: solid;
 }
