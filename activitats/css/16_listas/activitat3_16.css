@@ -30,3 +30,7 @@ dd {
 body {
     text-align: center;
 }
+dl :hover {
+    color: red;
+    background-color: greenyellow;
+}
