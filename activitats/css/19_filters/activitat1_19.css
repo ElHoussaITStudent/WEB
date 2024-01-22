@@ -1,0 +1,11 @@
+
+  .gati {
+    text-align: center;
+    background-color: gray;
+  }
+img {
+    height: 500px;
+}
+img:hover {
+    filter: sepia(100%);
+}
