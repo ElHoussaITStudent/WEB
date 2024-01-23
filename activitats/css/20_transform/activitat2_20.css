@@ -1,0 +1,12 @@
+.cuadrado {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border: 5px solid #000;
+    display: grid;
+    place-items: center;
+    margin:auto
+}
+.cuadrado,:hover {
+    transform: scale(2);
+}
