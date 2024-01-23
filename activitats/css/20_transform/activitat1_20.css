@@ -1,0 +1,13 @@
+.cuadrado {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border: 5px solid #000;
+    display: grid;
+    place-items: center;
+    margin:auto
+}
+.cuadrado:hover {
+    transform: rotate(15deg);
+}
+  
