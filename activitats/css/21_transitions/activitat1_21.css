@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+form {
+    max-width: 300px;
+    margin: 20px auto;
+}
+h1 {
+    color: forestgreen;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid lightblue;
+    transition: border 0.3s, transform 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border: 1px solid transparent;
+    outline: none;
+    transform: scale(1.5);
+}
+
+input[type="submit"] {
+    background-color: violet;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: purple;
+}
