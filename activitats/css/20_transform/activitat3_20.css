@@ -13,15 +13,18 @@
 }
 
 .rojo {
-    left: 0;
-    width: 150px;
     background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    left: 100px;
 }
 
 .azul {
-    left: 150px;
-    width: 150px;
-    background: rgb(31, 161, 236);
+    background: blue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     opacity: 0.5;
 }
 
