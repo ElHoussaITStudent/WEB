@@ -11,8 +11,3 @@
     border-radius: 50%;
     float: right;
 }
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
