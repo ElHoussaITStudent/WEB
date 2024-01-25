@@ -1,0 +1,18 @@
+.sol {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    border-radius: 50%;
+}
+.lluna {
+    width: 200px;
+    height: 200px;
+    background: rgb(181, 148, 201);
+    border-radius: 50%;
+    float: right;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
