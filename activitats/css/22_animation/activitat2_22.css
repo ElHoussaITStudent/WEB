@@ -1,0 +1,36 @@
+body {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+    background-color: blue;
+  }
+
+  .noria {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    animation: rotateNoria 10s linear infinite;
+  }
+
+  .silla {
+    width: 20px;
+    height: 500px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  @keyframes rotateNoria {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
