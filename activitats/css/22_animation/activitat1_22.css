@@ -1,13 +1,31 @@
+body {
+    overflow: hidden;
+  }
+.sol, .lluna {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 .sol {
-    width: 200px;
-    height: 200px;
-    background: orange;
-    border-radius: 50%;
-}
+    background-color: yellow;
+  }
+
 .lluna {
-    width: 200px;
-    height: 200px;
-    background: rgb(181, 148, 201);
-    border-radius: 50%;
-    float: right;
-}
+    background-color: gray;
+    animation: eclipse 7s infinite alternate;
+  }
+@keyframes eclipse {
+    0% {
+      left: 50%;
+    }
+    50% {
+      left: 0;
+    }
+    100% {
+      left: 50%;
+    }}
