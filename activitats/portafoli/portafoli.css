@@ -1,1 +1,19 @@
-
+nav {
+    margin: 40px;
+    display: inline-block;
+}
+header {
+    background-color: rgb(209, 99, 8);
+}
+article {
+    float: left;
+    background-color: rgb(194, 241, 162);
+}
+body {
+    
+    background-image: url(wallpaper2.jpg);
+    background-size: cover;
+}
+.paginici {
+    margin: 40px;
+}
