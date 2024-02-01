@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: orchid;
+
+}
+.loading {
+    text-align: center;
+}
+
+.giro {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid #3498db;
+    border-top: 6px solid orchid;
+    animation: spin 1s linear infinite;
+}
+
+
+.texto {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+

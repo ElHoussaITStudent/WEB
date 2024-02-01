@@ -4,20 +4,19 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-
 }
 
 .reloj {
     position: relative;
     width: 200px;
     height: 200px;
-    border: 10px solid #0be9b1;
+    border: 10px solid blue;
     border-radius: 50%;
 }
 
 .aguja {
     position: absolute;
-    background-color: #fff;
+    background-color: white;
     transform-origin: 50% 100%;
 }
 
@@ -47,9 +46,9 @@ body {
 }
 
 .aguja-minutos {
-    animation: girar 3600s linear infinite;
+    animation: girar 120s linear infinite;
 }
 
 .aguja-horas {
-    animation: girar 43200s linear infinite;
+    animation: girar 180s linear infinite;
 }
