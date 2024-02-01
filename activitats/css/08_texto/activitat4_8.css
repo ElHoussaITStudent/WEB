@@ -9,12 +9,12 @@ font-face {
     font-family: 'TextoFont';
     src: url('ruta/texto-font.woff2') format('woff2'),
          url('ruta/texto-font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: lighter;
+    font-style: oblique;
 }
 header {
     background-color: aqua;
-    color: rgb(166, 231, 14);
+    color: rgb(231, 201, 27);
     text-align: center;
     padding: 10px;
 }
@@ -32,7 +32,7 @@ main {
 
 .subtitulo {
     font-family: 'TituloFont', sans-serif;
-    color: rgb(252, 12, 12);
+    color: rgb(207, 43, 212);
 }
 
 .parrafo {
