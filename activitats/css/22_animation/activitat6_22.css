@@ -5,3 +5,28 @@ body {
     height: 100vh;
 
 }
+.cajapendulo {
+    width: 100px;
+    height: 200px;
+    border: 5px solid navy;
+    background-color: palevioletred;
+    position: relative;
+}
+.pendulo {
+    position: relative;
+    left: 50%;
+    width: 10px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 6px;
+    transform-origin: 50% 0;
+    animation: swing 2s ease-in-out infinite;
+}
+@keyframes swing {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+}
