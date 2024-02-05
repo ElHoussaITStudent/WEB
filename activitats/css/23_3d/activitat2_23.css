@@ -4,9 +4,9 @@ body {
 .cuadro {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 950px;
     overflow: hidden;
-    height: auto;
+
     position: relative;
 }
 .medio {
@@ -15,10 +15,15 @@ body {
     object-fit: cover;
 }
 .oveja {
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 700px;
+    margin-top: 470px;
     width: 30%;
     height: 30%;
     position: absolute;
-    box-shadow: -150px -70px 50px 0px;
+}
+.sombra {
+    position: absolute;
+margin-left: 600px;
+margin-top: 190px;
+height: 30%;
 }
