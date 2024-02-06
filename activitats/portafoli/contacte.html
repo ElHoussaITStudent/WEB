@@ -27,16 +27,6 @@
 .informacion-contacto li {
     margin-bottom: 1em;
 }
-
-.imagen-interactiva {
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.imagen-interactiva:hover {
-    transform: scale(1.1);
-}
-
 .pagina-contacte {
     text-align: center;
     margin: 2em;
@@ -75,9 +65,9 @@ button:hover {
     </style>
     <header class="capsalera">
         <nav><h1>Portafoli</h1></nav>
-        <nav class="inici">Inici</nav>
+        <nav class="inici"><a href="portafoli.html">Inici</a></nav>
         <nav class="activitats"> <a href="/WEB/web/index.html">Activitats</a></nav> 
-        <nav class="contacte">Contacte</nav> 
+        <nav class="contacte"><a href="contacte.html">Contacte</a></nav> 
         <nav class="sobremi">Sobre mi</nav>
     </header>
 
@@ -91,13 +81,13 @@ button:hover {
                 <ul>
                     <h3>Enviame un mensaje</h3>
                     <label for="nom">Nom:</label>
-                    <input type="text" id="nom" name="nom" required>
+                    <input type="text">
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label >Email:</label>
+                    <input type="text" >
 
                     <label for="missatge">Missatge:</label>
-                    <textarea id="missatge" name="missatge" rows="4" required></textarea>
+                    <textarea rows="4" ></textarea>
 
                     <button type="submit">Enviar</button>
                 </ul>
@@ -105,7 +95,6 @@ button:hover {
         </div>
     </article>
 
-    <aside class="imagen-interactiva"> <img src="earth.jpg" alt=""></aside>
 
 
 </body>
