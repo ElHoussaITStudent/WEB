@@ -7,7 +7,7 @@ height: 100vh;
 }
 div {
     display: inline-block;
-    animation: moverYAmpliar 2s forwards;
+    animation: moverYAmpliar 5s forwards;
     }
 
  @keyframes moverYAmpliar {
