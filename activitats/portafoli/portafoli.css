@@ -1,19 +1,28 @@
-nav {
-    margin: 40px;
-    display: inline-block;
-}
-header {
-    background-color: rgb(209, 99, 8);
-}
-article {
-    float: left;
-    background-color: rgb(194, 241, 162);
-}
 body {
-    
-    background-image: url(wallpaper2.jpg);
-    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
+.capsalera {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.inici, .activitats, .contacte, .sobremi {
+    display: inline-block;
+    margin: 0 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .paginici {
-    margin: 40px;
+    text-align: center;
+    margin: 2em;
+}
+
+aside {
+    float: right;
+    margin: 2em;
 }
