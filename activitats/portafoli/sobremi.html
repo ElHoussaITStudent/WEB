@@ -6,6 +6,49 @@
     <title>Sobri mi</title>
 </head>
 <body>
+<style>
+        body {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.capsalera {
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.inici, .activitats, .contacte, .sobremi {
+    display: inline-block;
+    margin: 0 1em;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+    .pagina-sobremi {
+    text-align: center;
+    margin: 2em;
+}
+.pagina-sobremi p {
+    margin-bottom: 1em;
+}
+.pagina-sobremi ul {
+    list-style: none;
+}
+.pagina-sobremi li {
+    margin-bottom: 1em;
+}
+.redes ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.redes img {
+    width: 500px;
+    height: 500 px;
+    border-radius: 20%;
+}
+
+</style>
     <header class="capsalera">
         <nav><h1>Portafoli</h1></nav>
         <nav class="inici"><a href="portafoli.html">Inici</a></nav>
@@ -14,9 +57,25 @@
         <nav class="sobremi"><a href="sobremi.html">Sobre mi</a></nav>
     </header>
     <article>
-
-
-
-    </article>
+        <div class="pagina-sobremi">
+            <h2>Sobre mi</h2>
+            <p>El meu nom és El Houssain Ezzaoua, i estic estudiant el curs SMX 1CA.</p>
+            <ul>Dades
+                <li>Edat: 17 anys</li>
+                <li>De Lleida</li>
+            </ul>
+            <ul>Habilitats
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <div class="redes">
+                <ul>
+                    
+                    <li class="datos"><a href="#" class="datos">LinkedIn</a></li>
+                    <li class="datos"><a href="#" class="datos">MiTwitter</a></li>
+                    <li class="datos"><a href="#" class="datos"> MI Email</a></li>
+                </ul>
+                <img src="pdf_20231023_121524_0000 (1).png" alt="">
+            </article>
 </body>
 </html>
