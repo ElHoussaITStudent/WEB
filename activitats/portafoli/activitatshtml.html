@@ -6,6 +6,88 @@
     <title>Activitat HTML</title>
 </head>
 <body>
+    <style>body {
+        font-family: 'Times New Roman', Times, serif;
+          margin: 0;
+          padding: 0;
+          background-color: #fdff6a;
+          background-image: url(fondop.jpg);
+      }
+.capsalera {
+          background-color: #5f9ea0;
+          color: white;
+          text-align: center;
+          padding: 2em;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+      }
+.branding h1 {
+          font-size: 2.5em;
+          margin: 0;
+      }
+      .branding span {
+          color: #007bff;
+      }
+      .branding p {
+          font-size: 1.2em;
+          margin-top: 0.5em;
+      }
+      nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 1em;
+      }
+      .nav-links {
+          display: flex;
+          gap: 1em;
+      }
+      nav a {
+          color: #007bff;
+          font-weight: bold;
+          text-decoration: none;
+          cursor: pointer;
+          transition: color 0.3s ease-in-out;
+      }
+      nav a.current-page {
+          background-color: #00ced1;
+          color: white;
+          padding: 0.5em 1em;
+          border-radius: 5px;
+      }
+      .nav-links a:hover {
+          color: #ff69b4;
+      }
+      main {
+          max-width: 800px;
+          margin: 0 auto;
+          background-color: rgb(211, 101, 245);
+          padding: 20px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          border-radius: 10px;
+          margin-top: 20px;
+          transition: transform 0.3s ease-in-out;
+      }
+header :hover {
+    transform: scale(1.1);
+}
+main :hover {
+    transform: scale(1.1);
+}</style>
+ <header class="capsalera">
+    <div class="branding">
+        <h1>El meu <span>Portafoli</span></h1>
+    </div>
+    <nav class="nav-links">
+        <a href="portafoli.html" class="current-page">Inici</a>
+        <a href="/web/index.html" class="current-page">Activitats</a>
+        <a href="contacte.html" class="current-page">Contacte</a>
+        <a href="sobremi.html" class="current-page">Sobre mi</a>
+    </nav>
+</header>
+<main>
     <h1>Activitats formato</h1>
     <p><a href="html/02_formato/activitat02-1.html">>Activitat 1</a></p>
     <p><a href="html/02_formato/activitat02-2.html">>Activitat 2</a></p>
@@ -61,5 +143,6 @@
 
    <h1>Actividades accesibilidad</h1>
    <p><a href="html/12_accesibilidad/activitat1_12.html">>Actvitat 1</a></p>>
+</main>
 </body>
 </html>
